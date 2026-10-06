@@ -1,0 +1,30 @@
+Seasonal Energy Management Best Practices
+
+Energy consumption changes significantly with seasons and weather.
+
+During summer, cooling demand can increase substantially during hot afternoons. Pre-cooling during lower-cost or high-solar periods can reduce peak electricity usage.
+
+During winter, heating demand can increase during mornings and evenings. Scheduling flexible heating-related loads outside expensive periods can reduce costs.
+
+Spring and autumn generally provide opportunities for reduced HVAC consumption because outdoor temperatures are moderate.
+
+Seasonal strategies should consider:
+- Outdoor temperature
+- Weather forecast
+- Historical energy consumption
+- Solar generation
+- Electricity prices
+- Occupancy patterns
+
+For hot weather:
+- Use moderate thermostat settings.
+- Use fans to improve comfort.
+- Run flexible appliances during solar production.
+- Avoid unnecessary peak-hour HVAC operation.
+
+For cold weather:
+- Use reasonable thermostat settings.
+- Improve insulation and reduce heat loss.
+- Schedule flexible electrical loads outside peak periods.
+
+Energy recommendations should adapt to current weather rather than relying only on fixed schedules.

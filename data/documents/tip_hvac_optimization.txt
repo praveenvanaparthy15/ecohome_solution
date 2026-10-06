@@ -1,0 +1,24 @@
+HVAC Energy Optimization Best Practices
+
+HVAC systems are often one of the largest sources of residential electricity consumption.
+
+Use programmable or smart thermostats to adjust temperatures automatically based on occupancy and electricity prices.
+
+During periods of high electricity prices, slightly increase the cooling temperature or decrease heating intensity when comfort allows.
+
+Avoid large temperature changes because they can cause the HVAC system to operate continuously while recovering.
+
+Clean or replace HVAC filters regularly. Dirty filters reduce airflow and can increase energy consumption.
+
+Use weather forecasts when planning HVAC operation. On very hot afternoons, pre-cooling the home during lower-cost or high-solar periods can reduce expensive peak-hour consumption.
+
+Keep doors and windows closed while heating or cooling is operating.
+
+Use ceiling fans together with moderate thermostat settings to improve perceived comfort without significantly increasing electricity consumption.
+
+Recommended strategy:
+1. Review historical HVAC consumption.
+2. Check weather conditions.
+3. Check electricity prices.
+4. Use solar generation when available.
+5. Schedule intensive cooling or heating outside expensive peak periods when practical.

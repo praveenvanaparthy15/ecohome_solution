@@ -1,0 +1,36 @@
+{
+  "total_tests": 12,
+  "successful_tests": 12,
+  "success_rate_percent": 100.0,
+  "response_scores": {
+    "Accuracy": 5.0,
+    "Relevance": 4.83,
+    "Completeness": 3.83,
+    "Usefulness": 4.42
+  },
+  "tool_scores": {
+    "Tool Appropriateness": 4.67,
+    "Tool Completeness": 3.33
+  },
+  "overall_score": 26.08,
+  "maximum_score": 30,
+  "overall_percentage": 86.93,
+  "strengths": [
+    "Accuracy scored 5.0/5.",
+    "Relevance scored 4.83/5.",
+    "Usefulness scored 4.42/5.",
+    "Tool Appropriateness scored 4.67/5."
+  ],
+  "weaknesses": [
+    "Completeness could be improved (3.83/5).",
+    "Tool Completeness could be improved (3.33/5)."
+  ],
+  "recommendations": [
+    "Improve tool-selection rules for questions requiring multiple data sources.",
+    "Use historical usage and pricing together when numerical optimization is requested.",
+    "Use savings calculations whenever sufficient numerical inputs are available.",
+    "Add richer personalization using household/device characteristics.",
+    "Consider replacing mock weather and pricing services with production APIs.",
+    "Add visualizations for energy usage, solar generation, and cost trends."
+  ]
+}

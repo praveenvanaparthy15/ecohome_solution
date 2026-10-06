@@ -1,0 +1,25 @@
+Smart Home Automation Energy-Saving Best Practices
+
+Smart home devices can reduce energy consumption by automatically coordinating appliances with occupancy, electricity prices, and solar generation.
+
+Use smart plugs or appliance schedules to prevent unnecessary standby consumption.
+
+Schedule flexible appliances such as dishwashers and washing machines during lower-cost electricity periods.
+
+When solar generation is high, prioritize flexible loads such as EV charging, water heating, pool pumps, and appliances.
+
+Use occupancy sensors to reduce HVAC, lighting, and other device usage in empty rooms.
+
+Create automation rules that turn devices off when they are not required.
+
+Avoid running several high-power devices simultaneously during electricity price peaks.
+
+A smart energy management strategy should consider:
+- Device power consumption
+- Device operating duration
+- User-required completion time
+- Electricity price
+- Solar availability
+- Customer comfort preferences
+
+Automation should prioritize customer requirements and should not disable safety-critical systems.

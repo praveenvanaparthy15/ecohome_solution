@@ -1,0 +1,120 @@
+test_id,question,response,used_tools,expected_tools,success,errors
+TC01,How can I reduce my electricity cost during peak hours?,"To reduce your electricity cost during peak hours, consider the following practical actions based on the available tips:
+
+1. **Shift Flexible Loads**: Move energy-intensive tasks like EV charging, water heating, or running the dishwasher to off-peak hours or periods of strong solar generation. For example, charge your EV overnight if off-peak pricing is lower, or use solar energy during the day if available.
+
+2. **Optimize HVAC Usage**: Pre-cool your home during lower-cost or high-solar periods before peak hours. Use ceiling fans with moderate thermostat settings to maintain comfort without increasing consumption significantly. Keep doors and windows closed while heating or cooling.
+
+3. **Leverage Solar Energy**: If you have solar panels, prioritize using solar-generated electricity during peak hours instead of drawing from the grid. Flexible appliances like washing machines or pool pumps can be run during midday when solar production is strongest.
+
+4. **Consider Energy Storage**: If you have a battery system, use stored energy during peak hours to reduce grid electricity purchases. Ensure you maintain any backup reserve and consider efficiency losses.
+
+These actions can help lower your electricity costs during peak hours by reducing grid reliance and optimizing energy usage. No specific savings were calculated due to lack of numerical data, but implementing these strategies can lead to measurable cost reductions.",['search_energy_tips'],"['search_energy_tips', 'get_electricity_prices']",True,[]
+TC02,Which devices have used the most energy in my home during the last 7 days?,"Over the last 7 days, the devices that have used the most energy in your home are:
+
+1. **HVAC**: 497.35 kWh, costing $73.71  
+2. **EV**: 302.4 kWh, costing $24.36  
+3. **Water Heater**: 260.4 kWh, costing $37.45  
+
+These three devices account for the majority of your total energy usage (1,059.15 kWh out of 1,135.05 kWh).  
+
+**Practical Actions**:  
+- Consider adjusting HVAC settings or improving home insulation to reduce heating/cooling needs.  
+- Optimize EV charging to off-peak hours if possible to lower costs.  
+- Check if your water heater is set to an efficient temperature (around 120°F) and insulate pipes to reduce heat loss.  
+
+*Note: The data provided is simulated for this example.*",['get_energy_usage'],['get_energy_usage'],True,[]
+TC03,How should I optimize my EV charging schedule?,"To optimize your EV charging schedule and reduce costs, charge your EV during **off-peak hours** (12 AM to 6 AM), when electricity prices are lowest at **$0.08 per kWh**. Avoid charging during **peak hours** (5 PM to 9 PM), when prices are highest at **$0.25 per kWh**. 
+
+By shifting your charging to off-peak hours, you can potentially save up to **$1.70 per day** (based on your average daily energy usage of 43.2 kWh). Note that electricity prices are simulated from the EcoHome mock electricity pricing service.","['get_energy_usage', 'get_electricity_prices']","['search_energy_tips', 'get_electricity_prices']",True,[]
+TC04,How can I reduce HVAC electricity consumption?,"To reduce HVAC electricity consumption, consider the following practical actions:
+
+1. **Use a programmable or smart thermostat** to automatically adjust temperatures based on occupancy and electricity prices.
+2. **Pre-cool or pre-heat your home** during lower-cost or high-solar periods, especially on hot afternoons or cold mornings, to reduce peak-hour consumption.
+3. **Clean or replace HVAC filters regularly** to maintain proper airflow and reduce energy waste.
+4. **Use ceiling fans** with moderate thermostat settings to improve comfort without significantly increasing energy usage.
+5. **Keep doors and windows closed** while heating or cooling is operating to prevent energy loss.
+6. **Leverage weather forecasts** to plan HVAC operation and avoid unnecessary usage during mild outdoor temperatures.
+
+By implementing these strategies, you can optimize your HVAC system's energy efficiency. However, without specific historical energy usage, electricity prices, or weather data, I cannot provide precise savings estimates. Consider reviewing your energy bills and local electricity rates for more tailored recommendations.",['search_energy_tips'],"['search_energy_tips', 'get_weather_forecast']",True,[]
+TC05,How much solar energy has been generated recently?,"Over the past 7 days, your solar system has generated a total of **231 kWh** of energy, with an **average daily generation of 33 kWh**. The weather conditions during this period were mostly **night (91 records)**, followed by **partly cloudy (42 records)** and **sunny (35 records)**. 
+
+To maximize your solar energy usage, consider shifting energy-intensive tasks, like laundry or dishwashing, to sunny days when generation is higher. Additionally, monitoring your energy consumption patterns can help you align usage with peak solar production times. 
+
+**Note:** The provided data is simulated for illustrative purposes.",['get_solar_generation'],['get_solar_generation'],True,[]
+TC06,What are the best ways to use solar generation to reduce grid electricity usage?,"To reduce grid electricity usage with solar generation, follow these practical steps:
+
+1. **Shift Flexible Loads to Solar Peak Hours**: Run appliances like EV chargers, water heaters, dishwashers, and washing machines during midday when solar production is strongest.  
+2. **Solar-Aware Scheduling**: Match device operation with expected solar availability, avoiding grid usage during peak hours.  
+3. **Use Smart Home Automation**: Automate appliances to run when solar generation is high and electricity prices are low.  
+4. **Consider Energy Storage**: If you have a battery, prioritize charging it with excess solar energy during strong generation periods to use later during peak hours.  
+
+By aligning usage with solar production, you can maximize on-site solar consumption and reduce reliance on the grid. No specific savings were calculated due to missing data, but these strategies are proven to lower electricity costs.",['search_energy_tips'],"['get_solar_generation', 'search_energy_tips']",True,[]
+TC07,How can I reduce energy consumption during hot weather?,"To reduce energy consumption during hot weather, consider the following practical actions:
+
+1. **Pre-cool your home** during lower-cost periods or when solar generation is high to reduce peak electricity usage.
+2. **Use moderate thermostat settings** and combine them with **ceiling fans** to improve comfort without significantly increasing energy consumption.
+3. **Keep doors and windows closed** while cooling to maintain indoor temperatures.
+4. **Run flexible appliances** (e.g., dishwashers, washing machines) during periods of strong solar generation to leverage renewable energy.
+5. **Avoid unnecessary peak-hour HVAC operation** by scheduling intensive cooling outside expensive peak periods when possible.
+6. **Use a programmable or smart thermostat** to adjust temperatures automatically based on occupancy and electricity prices.
+7. **Clean or replace HVAC filters regularly** to ensure efficient airflow and reduce energy consumption.
+
+By implementing these strategies, you can reduce energy consumption and potentially lower electricity costs during hot weather. Note that specific savings depend on your household's energy usage patterns, electricity prices, and solar generation, which are not provided in the available data.",['search_energy_tips'],"['get_weather_forecast', 'search_energy_tips']",True,[]
+TC08,Would shifting electricity usage from peak hours to off-peak hours save money?,"Yes, shifting electricity usage from peak hours to off-peak hours can save money, as off-peak electricity rates are generally lower than peak rates. 
+
+A practical action you can take is to charge energy-intensive devices like electric vehicles (EVs) during off-peak hours, such as overnight. However, if you have solar generation and your EV is available during the day, consider charging it with solar energy for greater renewable energy utilization, while ensuring the required departure charge level is met.
+
+Please note that actual savings depend on your specific electricity pricing plan and usage patterns, which are not provided in the available data.",['search_energy_tips'],"['get_electricity_prices', 'calculate_savings']",True,[]
+TC09,Should I consider battery storage for my solar system?,"**Recommendation:**  
+Consider battery storage for your solar system if you want to reduce grid electricity purchases during expensive peak periods or ensure backup power during outages. To decide, evaluate the following:  
+
+1. **Solar Generation & Household Demand:** Match your solar production with your energy needs. Prioritize charging the battery with excess solar energy after meeting immediate household demand.  
+2. **Electricity Prices:** Use stored energy during peak hours when grid electricity is costly.  
+3. **Battery Efficiency:** Avoid frequent charging and discharging to minimize efficiency losses.  
+4. **Backup Reserve:** Maintain a reserve for emergencies before using stored energy for cost optimization.  
+
+**Practical Actions:**  
+- Monitor solar generation and household consumption to identify when excess energy can be stored.  
+- Compare electricity prices to determine the best times to charge or discharge the battery.  
+- Ensure your battery system and tariff allow for grid charging when solar generation is low and grid prices are favorable.  
+
+**Limitations:**  
+Without specific data on your solar generation, household consumption, or electricity prices, savings cannot be calculated. Evaluate these factors to make an informed decision.",['search_energy_tips'],"['search_energy_tips', 'get_solar_generation']",True,[]
+TC10,Give me recommendations to reduce my overall household energy consumption.,"To reduce your overall household energy consumption, consider the following practical actions based on the available information:
+
+1. **Smart Home Automation**:  
+   - Use smart plugs or appliance schedules to prevent standby consumption.  
+   - Schedule flexible appliances (e.g., dishwashers, washing machines) during lower-cost electricity periods.  
+   - Prioritize EV charging, water heating, and other flexible loads when solar generation is high.  
+
+2. **HVAC Optimization**:  
+   - Install a programmable or smart thermostat to adjust temperatures based on occupancy and electricity prices.  
+   - Clean or replace HVAC filters regularly to improve airflow and reduce energy use.  
+   - Use ceiling fans with moderate thermostat settings to enhance comfort without increasing consumption.  
+
+3. **Seasonal Energy Management**:  
+   - Pre-cool your home during lower-cost or high-solar periods in summer to reduce peak electricity usage.  
+   - Schedule heating-related loads outside expensive periods in winter.  
+
+4. **Renewable Energy Integration**:  
+   - If you have solar panels, operate flexible appliances (e.g., EV charging, water heating) during periods of strong solar generation.  
+
+These actions can help reduce energy consumption and lower electricity costs, though specific savings depend on your household’s usage patterns and local electricity prices. No numerical savings were calculated in this response due to lack of specific data.",['search_energy_tips'],"['get_energy_usage', 'search_energy_tips']",True,[]
+TC11,How can smart-home automation help reduce my electricity usage?,"Smart-home automation can help reduce your electricity usage by coordinating appliances with occupancy, electricity prices, and solar generation. Here are some practical actions you can take:
+
+1. **Use smart plugs or appliance schedules** to prevent unnecessary standby consumption.
+2. **Schedule flexible appliances** (e.g., dishwashers, washing machines) during lower-cost electricity periods.
+3. **Prioritize flexible loads** (e.g., EV charging, water heating) when solar generation is high.
+4. **Install occupancy sensors** to reduce HVAC, lighting, and device usage in unoccupied rooms.
+5. **Create automation rules** to turn off devices when not in use.
+
+By implementing these strategies, you can optimize your energy usage and potentially reduce your electricity costs. Note that specific savings calculations would require additional data, such as your electricity rates and usage patterns.",['search_energy_tips'],['search_energy_tips'],True,[]
+TC12,What can I do to optimize my pool pump and washing machine usage?,"To optimize your pool pump and washing machine usage, consider the following practical actions:
+
+1. **Schedule during off-peak hours or high solar generation periods**: Run your pool pump and washing machine when electricity prices are lower or when solar generation is high. This can reduce grid consumption and lower costs.  
+2. **Use smart plugs or appliance schedules**: Automate your devices to operate during optimal times, avoiding unnecessary standby consumption.  
+3. **Prioritize solar energy**: If you have solar panels, align the operation of these appliances with peak solar production (typically around midday) to maximize on-site solar consumption.  
+4. **Avoid peak periods**: Shift usage away from expensive peak hours to reduce electricity costs.  
+
+These actions can help you save on energy costs, though specific savings depend on your electricity rates, solar generation, and usage patterns. No numerical savings were calculated due to missing data.",['search_energy_tips'],"['get_energy_usage', 'search_energy_tips']",True,[]

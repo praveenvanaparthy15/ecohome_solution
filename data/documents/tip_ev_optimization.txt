@@ -1,0 +1,21 @@
+Electric Vehicle Charging Optimization Best Practices
+
+EV charging is a flexible high-energy load and is therefore an important target for energy optimization.
+
+When solar generation is available, schedule EV charging during strong solar production whenever the vehicle's required departure time allows.
+
+If solar generation is unavailable, prefer lower electricity price periods such as off-peak hours.
+
+EV scheduling should consider:
+- Current battery state of charge
+- Required charge level
+- Vehicle departure time
+- Charger power
+- Solar generation forecast
+- Electricity prices
+
+Avoid charging unnecessarily during expensive peak periods.
+
+For example, if an EV can charge overnight, compare overnight off-peak pricing with expected daytime solar generation. If the vehicle is available during the day and solar generation is strong, daytime solar charging may provide greater renewable-energy utilization.
+
+The recommendation should always satisfy the required departure charge level before optimizing cost.

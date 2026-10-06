@@ -1,0 +1,28 @@
+Renewable Energy Integration Best Practices
+
+Homes with solar panels can reduce electricity costs by consuming solar energy directly rather than exporting excess generation and purchasing electricity later.
+
+The best time to operate flexible appliances is often during periods of strong solar generation.
+
+Typical solar production increases after sunrise, reaches its strongest period around midday, and decreases toward sunset.
+
+Flexible loads that can often be shifted toward solar production include:
+- Electric vehicle charging
+- Water heating
+- Dishwasher operation
+- Washing machines
+- Pool pumps
+- Battery charging
+
+Solar-aware scheduling should consider both expected generation and electricity prices.
+
+If solar generation is forecast to be low because of clouds or weather conditions, flexible loads may be better scheduled for another period with lower electricity prices.
+
+A useful solar optimization strategy is:
+1. Forecast solar generation.
+2. Estimate household consumption.
+3. Identify flexible devices.
+4. Match device operation with expected solar availability.
+5. Avoid expensive grid consumption when possible.
+
+The objective is to maximize useful on-site solar consumption while maintaining customer requirements.

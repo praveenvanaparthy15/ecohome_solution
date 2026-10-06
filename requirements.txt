@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langchain-cohere
+langchain-text-splitters
+langgraph
+chromadb
+cohere
+sqlalchemy
+pydantic
+python-dotenv
+jupyter
+ipykernel
+pandas
+numpy
+matplotlib
