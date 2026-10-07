@@ -289,6 +289,7 @@ Requirements:
                 "success": False,
                 "response": "Please provide an energy-related question.",
                 "used_tools": [],
+                "messages": [],
                 "errors": ["Empty question"],
             }
 
@@ -325,6 +326,7 @@ Use the available tools when they can improve the answer.
                     "No recommendation was generated.",
                 ),
                 "used_tools": result.get("used_tools", []),
+                "messages": result.get("messages", []),
                 "errors": result.get("errors", []),
             }
 
@@ -337,6 +339,7 @@ Use the available tools when they can improve the answer.
                     "The EcoHome agent could not complete the request."
                 ),
                 "used_tools": [],
+                "messages": [],
                 "errors": [str(exc)],
             }
 
